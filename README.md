@@ -1,50 +1,35 @@
-# React Flask App
+<!-- PythonFlask README -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<!-- PROJECT LOGO -->
 
-Currently, two official plugins are available:
+<a id="readme-top"></a>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+  <!-- <a href="https://github.com/abelr20/PythonFlask">
+    <img src="images/CircleLogo.png" alt="Logo" height="100">
+  </a> -->
 
-## Expanding the ESLint configuration
+  <h3 align="center">PythonFlask</h3>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<hr>
 
-- Configure the top-level `parserOptions` property like this:
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#built-with">Built With</a>
+  </ol>
+</details>
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
-```
+<hr>
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Introduction
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react';
+React frontend and Python Flask backend
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-});
-```
+### Built With
+
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://reactjs.org/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
